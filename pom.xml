@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>by.pintusov</groupId>
-	<artifactId>TEST</artifactId>
+	<artifactId>Test</artifactId>
 	<version>1.0-SNAPSHOT</version>
 
 	<name>Test</name>
