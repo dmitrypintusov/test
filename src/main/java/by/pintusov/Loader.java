@@ -3,8 +3,6 @@ package by.pintusov;
 import lombok.Data;
 import org.apache.log4j.Logger;
 
-import java.io.*;
-
 /**
  * Class {@code Loader}
  * @see java.lang.Class
@@ -265,7 +263,7 @@ public class Loader {
 		hm.put("First", 3);
 		System.out.println(hm + " size =" + hm.size());*/
 
-		String file = "data.txt";
+		/*String file = "data.txt";
 		File f = new File (file);
 		String srt[] = {"This", " is", " test", " file!"};
 		try (FileWriter fileWriter = new FileWriter(f)){
@@ -320,11 +318,11 @@ public class Loader {
 			}
 		} catch (IOException e) {
 			logger.error(e);
-		}
+		}*/
 	}
 
 	/* AFTER MAIN METHODS */
-	private static int showStrings (String ... strings) {
+/*	private static int showStrings (String ... strings) {
 		int count = 0;
 		if (strings.length == 0) {
 			System.out.println("No strings");
@@ -335,5 +333,5 @@ public class Loader {
 			}
 		}
 		return count;
-	}
+	}*/
 }
